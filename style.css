@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Neue", cursive;
+  box-sizing: border-box;
+  outline: none;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("images/background_1080.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #333;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 20px;
+}
+.container h1,
+.form {
+  margin-bottom: 1.5rem;
+}
+h1 {
+  color: #2c65e1;
+  font-size: 3rem;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid orangered;
+  border-radius: 5px;
+  padding: 20px;
+}
+h3 {
+  font-size: 1.4rem;
+}
+input {
+  margin: 1rem 0;
+  padding: 5px;
+  font-size: 1.4rem;
+}
+#flamesResult {
+  font-size: 2rem;
+  min-height: 4.5rem;
+  font-weight: bolder;
+}
+.reset {
+  background-color: #f34;
+  color: #eee;
+}
+.submit {
+  background-color: rgb(45, 103, 230);
+  color: #eee;
+}
